@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+
 }
 
 body{
@@ -39,3 +39,38 @@ h1{
     vertical-align: middle;
     
 }
+
+#container{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.task{
+    background-color: rgb(46, 165, 239);
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    border-radius: 8%;
+}
+
+.sect{
+    color: lightgrey;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: 2px solid lightgray;
+    border-radius: 8%;
+    }
